@@ -1,0 +1,31 @@
+table.list {
+	width: 1200px;
+	font-size: 12px;
+	//position: relative;
+	thead {
+		position: sticky; 
+		top: 0px;
+	}
+	th {
+		text-transform: uppercase;
+	}
+	td {
+		vertical-align: middle;
+		.status {
+			height: 40px;
+		}
+		.status.approved {
+			border-left: solid 4px #0bc893;
+		}
+	}
+	th, td {
+		text-align: left;
+		height: 50px;
+		padding: 0 10px;
+	}
+	// .fixed-left {
+	// 	position: absolute;
+	// 	left: 0;
+	// }
+	
+}
